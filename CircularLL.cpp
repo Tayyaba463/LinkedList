@@ -97,17 +97,7 @@ void deleteData(int value)
     }
 
     Node* curr = list;
-    Node* pre = NULL;
-
-    
-    if (list->data == value)
-    {
-        free(list);
-        list = NULL;
-
-        cout << "Node deleted." << endl;
-        return;
-    }
+    Node* pre = NULL;
 
   
     if (list->data == value)
